@@ -1,0 +1,90 @@
+
+.left_nav {
+    width: 20%;
+    float:left;
+}
+
+.game_area {
+    width:79%;
+    float:left;
+}
+
+.logo {
+    height:150px;
+    width: 150px;
+    background-color: blue;
+    float:left;
+}
+
+.menu_controls {
+    width: 80%;
+    float: left
+}
+
+header {
+    clear:both;
+}
+
+.content {
+    clear:both;
+}
+
+.card {
+    width: 15%;
+    height: auto;
+}
+
+.card_container {
+    position: relative;
+    height: 150px;
+    width: 100px;
+    display:inline-block;
+}
+.card_back_selected{
+    -webkit-transform: rotate3d(0,1,0,180deg);
+    -webkit-transition: 3s;
+}
+.card_front_selected{
+    -webkit-transform: rotate3d(0,1,0,0deg)!important;
+    -webkit-transition: 3s;
+}
+.card_container_matched
+{
+    background-color: greenyellow;
+}
+.card_matched
+{
+    opacity:.5;
+}
+
+.card_front, .card_back {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: 3s;
+}
+.card_front{
+    -webkit-transform: rotate3d(0,1,0,180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
